@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>feliz cumpleaños 🎂‼️</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,serif;color:#5b303b;background:linear-gradient(135deg,#fff7f8,#ffe8ee,#fff)}
+button,a{font-family:inherit}.cover{min-height:100vh;display:grid;place-items:center;padding:20px;text-align:center}
+.coverbox,.card{background:#fffdfdE8;border:1px solid #f5d4dc;border-radius:28px;box-shadow:0 15px 50px #7b304018}
+.coverbox{max-width:850px;width:100%;padding:28px 18px 38px}.cover h1{color:#8e2946;font-size:clamp(27px,6vw,48px);line-height:1.15}
+.calendar{max-width:470px;margin:25px auto;background:white;border-radius:20px;overflow:hidden;box-shadow:0 8px 25px #7b304018}
+.month{background:#b83255;color:white;padding:15px;font-size:25px;font-weight:bold}.week,.days{display:grid;grid-template-columns:repeat(7,1fr)}
+.week div{padding:9px 2px;color:#a65c6c;font-size:12px}.days div{min-height:44px;display:grid;place-items:center}
+.day20{margin:4px;background:#b83255;color:white;border-radius:50%;font-weight:bold;cursor:pointer;box-shadow:0 0 0 5px #ffd9e2}
+.hint{font-size:14px;color:#9a6070}
+#site{display:none}nav{position:sticky;top:0;z-index:10;background:#fffafaf2;backdrop-filter:blur(10px);display:flex;gap:7px;justify-content:center;flex-wrap:wrap;padding:10px}
+nav a{color:#822940;text-decoration:none;background:#fff;border:1px solid #f1ccd6;border-radius:30px;padding:7px 11px;font-size:13px}
+section{width:min(980px,92%);margin:auto;padding:60px 0 10px}.card{padding:25px;margin-bottom:18px}
+.hero{text-align:center}.hero h2{font-size:clamp(32px,7vw,55px);color:#8e2946;margin:8px}
+h3{font-size:28px;color:#962d4b;margin-top:0}.letter{font-size:18px;line-height:1.8}
+audio{width:min(600px,100%)}.audio{text-align:center}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.gallery img,.gallery video{width:100%;height:250px;object-fit:cover;border-radius:18px}
+.gifs{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}.gifs img{width:100%;max-height:330px;object-fit:contain;border-radius:20px}
+.memories{display:grid;gap:14px}.memory{background:#fff5f7;border-left:5px solid #b83255;border-radius:15px;padding:20px;font-size:17px;line-height:1.65}
+.memory strong{display:block;color:#922943;font-size:21px;margin-bottom:7px}
+.reasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:13px}
+.reason{min-height:115px;display:grid;place-items:center;text-align:center;padding:15px;background:linear-gradient(145deg,#fff,#fff0f3);border:1px solid #f2ccd6;border-radius:20px;font-size:18px;font-weight:bold;transition:.2s}.reason:hover{transform:translateY(-4px)}
+.reveal{text-align:center}.btn{border:0;background:#b83255;color:#fff;border-radius:30px;padding:14px 23px;font-size:17px;cursor:pointer}.secret{margin-top:18px;background:#fff7f9;border-radius:20px;padding:22px;font-size:19px;line-height:1.7}
+.final{text-align:center;padding-bottom:90px}.final h2{font-size:38px;color:#9a2e4b}
+@media(max-width:600px){.gallery img,.gallery video{height:210px}.letter{font-size:17px}}
+</style>
+</head>
+<body>
+<div id="cover" class="cover">
+<div class="coverbox">
+<div style="font-size:38px">💗</div>
+<h1>un día como hoy nació el niño más especial de toda mi vida💗</h1>
+<p>Para Alexander, mi niño</p>
+<div class="calendar">
+<div class="month">Octubre 2026</div>
+<div class="week"><div>LUN</div><div>MAR</div><div>MIÉ</div><div>JUE</div><div>VIE</div><div>SÁB</div><div>DOM</div></div>
+<div class="days">
+<div></div><div></div><div></div><div>1</div><div>2</div><div>3</div><div>4</div>
+<div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div>
+<div>12</div><div>13</div><div>14</div><div>15</div><div>16</div><div>17</div><div>18</div>
+<div>19</div><div class="day20" onclick="openSite()">20</div><div>21</div><div>22</div><div>23</div><div>24</div><div>25</div>
+<div>26</div><div>27</div><div>28</div><div>29</div><div>30</div><div>31</div><div></div>
+</div></div>
+<p class="hint">Toca el 20 para abrir tu regalo</p>
+</div></div>
+
+<div id="site">
+<nav><a href="#inicio">Inicio</a><a href="#cancion">Para ti</a><a href="#carta">Carta</a><a href="#fotos">Fotos</a><a href="#recuerdos">Recuerdos</a><a href="#razones">Lo que amo</a><a href="#sorpresa">Sorpresa</a></nav>
+
+<section id="inicio" class="hero"><div class="card"><div style="font-size:28px">20 · 10 · 2026</div><h2>Feliz cumpleaños, mi niño</h2><p>Esta página es para ti, Alexander.</p></div></section>
+
+<section id="cancion"><div class="card audio"><h3>Un momento para ti</h3><p>Esta parte queda reservada para uno de nuestros momentos especiales.</p><p style="font-size:28px">💗</p></div></section>
+
+<section id="carta"><div class="card"><h3>Para ti</h3><div class="letter">Feliz cumpleaños mi amor, es el primer cumpleaños en que puedo acompañarte como tu novia y tratarte como siempre quise, prometo llenarte de besos y abrazos cuando pueda y decirte que te amo mucho sobre todo, me alegra haber coincidido contigo y que seas tú la persona a la que pueda llamar mi amor, espero que hoy estés muy muy feliz con tu familia y amistades si sales con ellos, te amo muchísimo 💗</div></div></section>
+
+<section id="fotos"><div class="card"><h3>Un pedacito de nosotros</h3><div class="gallery">
+<img src="foto1.jpg"><img src="foto2.webp"><img src="foto3.webp"><img src="foto4.jpg">
+<video controls playsinline><source src="video1.mp4" type="video/mp4"></video>
+<video controls playsinline><source src="video2.mp4" type="video/mp4"></video>
+</div></div>
+<div class="card"><h3>Y también estos momentitos</h3><div class="gifs"><img src="gif1.gif"><img src="gif2.gif"></div></div></section>
+
+<section id="recuerdos"><div class="card"><h3>Recuerdos</h3><div class="memories">
+<div class="memory"><strong>Cuando jugaste jueguito de acrobacias conmigo en Roblox</strong>Pensé q no ibas a querer por pena pero finalmente aceptaste y m dió mucha alegría oki</div>
+<div class="memory"><strong>La primera vez que nos encontramos en el parque de mi casa en mayo</strong>Estuvimos de la mano mientras paseábamos a la Dulce</div>
+<div class="memory"><strong>La vez que faltaste a clases porque estabas malito</strong>Viniste en la salida para verme solo 5 minutos jiji te amo mi amor</div>
+<div class="memory"><strong>Nuestro primer beso</strong>El 10 de marzo en la escalera cuando no habían cámaras 💔, estaba muy nerviosa antes d hacerlo pero se sintió muy bonito</div>
+</div></div></section>
+
+<section id="razones"><div class="card"><h3>Cositas que amo de mi niño</h3><div class="reasons">
+<div class="reason">Sus ojos</div><div class="reason">Sus manos</div><div class="reason">Sus labios muy bonitos</div><div class="reason">Su personalidad</div><div class="reason">Su humor</div><div class="reason">Su carisma</div><div class="reason">Su risa</div><div class="reason">Su cabello</div><div class="reason">Su hermosa sonrisa</div><div class="reason">Y lo mucho que amas.</div>
+</div></div></section>
+
+<section id="sorpresa"><div class="card reveal"><h3>Hay una última cosita...</h3><p>Pero primero tienes que abrirla tú.</p><button class="btn" onclick="reveal()">No abras esto</button>
+<div id="secret" class="secret" style="display:none">Si llegaste hasta aquí, quiero que sepas que hice todo esto pensando en ti.<br><br><b>Feliz cumpleaños, Alexander. Te amo muchísimo 💗</b></div></div></section>
+
+<section class="final"><div class="card"><h2>Feliz cumpleaños, mi niño</h2><p>20 de octubre de 2026</p><div style="font-size:40px">💗</div></div></section>
+</div>
+<script>
+function openSite(){document.getElementById('cover').style.display='none';document.getElementById('site').style.display='block';window.scrollTo(0,0)}
+function reveal(){document.getElementById('secret').style.display='block';document.querySelector('.btn').textContent='Ya lo abriste'}
+</script>
+</body></html>
